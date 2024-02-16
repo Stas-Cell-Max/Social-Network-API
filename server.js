@@ -9,7 +9,7 @@ app.use(express.json()); // Middleware for parsing JSON
 
 
 // Database connection with Mongoose 
-mongoose.connect('mongodb://localhost:27017/Social_Network_db', {
+mongoose.connect('mongodb://localhost:27017/socialNetworkDB', {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 })

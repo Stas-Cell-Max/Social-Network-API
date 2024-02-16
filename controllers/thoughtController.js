@@ -1,4 +1,6 @@
-const { Thought, User } = require('../models');
+const Thought = require('../models/Thought');
+const User = require('../models/User');
+
 
 const thoughtController = {
   // Get all thoughts
@@ -38,7 +40,7 @@ const thoughtController = {
       });
   },
 
-  // Create a new thought
+  // Create a new thought and push it to the associated user's thoughts array
   createThought({ body }, res) {
     Thought.create(body)
       .then(({ _id }) => {
