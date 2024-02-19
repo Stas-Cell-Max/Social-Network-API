@@ -9,10 +9,7 @@ app.use(express.json()); // Middleware for parsing JSON
 
 
 // Database connection with Mongoose 
-mongoose.connect('mongodb://localhost:27017/socialNetworkDB', {
-  useNewUrlParser: true,
-  useUnifiedTopology: true,
-})
+mongoose.connect('mongodb://localhost:27017/socialNetworkDB')
 .then(() => console.log('Connected to MongoDB database'))
 .catch((err) => console.error('Could not connect to MongoDB', err));
 
