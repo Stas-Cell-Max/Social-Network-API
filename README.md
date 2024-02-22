@@ -40,6 +40,7 @@ A dynamic and scalable backend solution for social networking platforms, tailore
 
 ## Testing
 Demonstrate the API routes using Insomnia or another API client by sending requests to create, read, update, and delete users, thoughts, friends, and reactions.
+Walkthrough video : https://drive.google.com/file/d/1eWQ9vD2oyDgMliVJOsFh6HHqdfMokW6Z/view
 
 ## Future Enhancements
 - Real-time chat implementation.
